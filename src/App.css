@@ -1,0 +1,4 @@
+.card-corsws{
+    margin: 18px auto !important;
+    @apply lg:w-1/4 sm:w-5/12 my-auto hover:shadow-lg hover:shadow-orange-500 rounded-2xl transition-all duration-300;
+}
