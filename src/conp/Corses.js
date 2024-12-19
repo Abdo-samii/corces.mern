@@ -3,13 +3,13 @@ import Imgscroll from './Imgscroll';
 import { Route, Routes } from 'react-router-dom';
 import Courses from './Courses';
 import { useNavigate } from 'react-router-dom';
-import { useLanguage } from './LanguageContext'; // استيراد استخدام اللغة
+import { useLanguage } from './LanguageContext'; 
 
 
 
 function Corses() {
     const navigate = useNavigate();
-    const { language } = useLanguage(); // استخدام لغة السياق
+    const { language } = useLanguage();
     const learnItems = [
         { label: language === 'en' ? 'Learn More' : 'تعرف علي المزيد', path: '/courses' },
     ];
